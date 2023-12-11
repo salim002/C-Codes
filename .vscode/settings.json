@@ -1,0 +1,36 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "string": "cpp",
+        "algorithm": "cpp",
+        "*.tcc": "cpp",
+        "deque": "cpp",
+        "vector": "cpp",
+        "new": "cpp",
+        "array": "cpp",
+        "string_view": "cpp",
+        "regex": "cpp",
+        "cmath": "cpp",
+        "random": "cpp",
+        "istream": "cpp",
+        "chrono": "cpp",
+        "limits": "cpp",
+        "valarray": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "bitset": "cpp",
+        "cstdlib": "cpp"
+    },
+    "code-runner.fileDirectoryAsCwd": true,
+    "C_Cpp.errorSquiggles": "Enabled",
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./19_Practice_STL",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true
+}
