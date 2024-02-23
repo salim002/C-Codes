@@ -40,7 +40,7 @@ int main(){
     e->e=50;
     // e.setData(5, 10, 15); It will throw error since object pointer should be accessed by '->' sign
     e->setData(5, 10, 15);
-    // (*e).setData(5, 10, 15); // It will also work.    (*e) = derefrenced value
+    // (*e).setData(5, 10, 15); // It will also work.    (*e) = dereferenced value
     e->getData();
     return 0;
 }

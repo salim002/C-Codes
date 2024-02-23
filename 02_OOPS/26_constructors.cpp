@@ -29,6 +29,8 @@ complex ::complex(void) // ---> This is a default constructor as it takes no par
 int main(){
     complex c1;
     c1.printNumber();
+    // complex* c2 = new complex;
+    // c2->printNumber();
     
     
     return 0;

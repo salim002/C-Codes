@@ -63,9 +63,9 @@ int main(){
     b.print();
 
     // dynamic allocation
-    student * c  = new student; // Destructor won't be called
-    student * d = new student; // to call the destructor for this we have to manually call destructor
-    delete c; // Manually calling destructor
+    // student * c  = new student; // Destructor won't be called
+    // student * d = new student; // to call the destructor for this we have to manually call destructor
+    // delete c; // Manually calling destructor
 
     // static allocation
     // student e, f, g; // Destructor will be called 

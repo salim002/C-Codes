@@ -29,8 +29,8 @@ void shop ::displayPrice(void)
 }
 int main()
 {
-    // class shop dukan;
-    shop dukan;
+    // class shop dukan;  // Less common
+    shop dukan; // More common
     dukan.initCounter();
     dukan.setPrice();
     dukan.setPrice();

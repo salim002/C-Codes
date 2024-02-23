@@ -7,7 +7,6 @@ class complex
     public:
     //Below line means that non member function named sumComplex() is allowed to do anything with private data
     friend complex sumComplex(complex o1, complex o2);
-
         void setData(int x, int y)
         {
             a = x;
